@@ -1,0 +1,27 @@
+#navbar {
+  padding: 25px 0;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.fade-in {
+  background-color: #f4f7ff;
+  padding: 15px 0!important;
+}
+
+.cta {
+  opacity: 0;
+  right: -25px;
+  position: relative;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -ms-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  transition: 0.25s ease-out;
+}
+.fade-in .cta {
+  opacity: 1!important;
+  right: 0;
+}
